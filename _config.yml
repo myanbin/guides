@@ -1,0 +1,17 @@
+# Setup
+title:        帮助中心
+description:  教程、手册、常见问题汇总
+baseurl:      ""
+locale:       "zh-CN"
+timezone:     Asia/Shanghai
+
+#Others
+markdown:     kramdown
+
+permalink:    /:categories/:title.html
+
+compress_html:
+  clippings:      all
+  comments:       ["<!--", "-->"]
+  endings:        all
+  startings:      [html, head, body]
