@@ -11,5 +11,5 @@ author:
 
 |软件名称|下载链接|说明|
 |:---:|:---:|:---:|
-|<font color="red">*Git</font>|[Win32位](download/Git-2.22.0-32-bit.exe) &middot; [Win64位](download/Git-2.22.0-64-bit.exe) &middot; [Linux/MacOS](git-handbook.html#linux)|版本控制命令行工具|
-|TortoiseGit|[Win32位](download/TortoiseGit-2.8.0.0-32bit.exe) &middot; [Win64位](download/TortoiseGit-2.8.0.0-64bit.exe)|Git版本控制第三方图形化客户端|
+|<font color="red">*Git</font>|[Win32位]({{ site.baseurl }}/uploads/softwares/Git-2.22.0-32-bit.exe) &middot; [Win64位]({{ site.baseurl }}/uploads/softwares/Git-2.22.0-64-bit.exe) &middot; [Linux/MacOS](/handbook/git-handbook.html#linux)|版本控制命令行工具|
+|TortoiseGit|[Win32位]({{ site.baseurl }}/uploads/softwares/TortoiseGit-2.8.0.0-32bit.exe) &middot; [Win64位]({{ site.baseurl }}/uploads/softwares/TortoiseGit-2.8.0.0-64bit.exe)|Git版本控制第三方图形化客户端|
