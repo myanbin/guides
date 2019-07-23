@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  如何重写 Git 历史
-date:   2019-07-10 10:50:00
+date:   2019-07-22 10:50:00
 author:
   - 马艳彬 <mayanbin@xinhua.org>
 categories: faq
@@ -12,9 +12,16 @@ index: 101
 
 本文将介绍如何使用脚本来重写 Git 历史，操作者需对 Git 及命令行有一定基础。
 
-## 保持本地仓库为最新最全
+> 由于本文涉及的操作较为复杂，建议将原始代码进行备份后再进行以下操作。
 
-> 由于本文涉及的操作较为复杂，建议操作者将原始代码进行备份。
+## 准备工作
+
+为了顺利进行重写，你需要确认是否已经完成下列内容：
+
+* 安装有 Git 和 Python 3 的本地开发环境
+* 提前将待重写的代码仓库克隆到本地，并在 GitLab 上创建一个空的项目仓库
+
+## 保持本地仓库为最新最全
 
 保证本地仓库中的分支和标签与远端保持一致，并且为最新版本。
 
@@ -41,19 +48,20 @@ hexenq@gmail  = 李骞 <liqian6@xinhua.org>
 
 ## 生成脚本并执行重写操作
 
-将 `gencmd.py` 复制到项目根目录下，并在终端中实行如下命令：
+将 `gencmd.py`[^1] 复制到项目根目录下，并在终端中执行命令：
 
 ```sh
 $ python ./gencmd.py
 ```
 
-复制上述命令的输出文本，并在终端中执行。
+复制上述命令的输出结果，并在终端[^2]中执行。
 
 ## 验证是否成功
 
 使用下面的命令来验证重写操作是否成功执行：
 
 ```sh
+$ git for-each-ref --format="%(refname)" refs/original/ | xargs -n 1 git update-ref -d
 $ git shortlog --email --numbered --summary --all
 ```
 
@@ -62,4 +70,8 @@ $ git shortlog --email --numbered --summary --all
 ```sh
 $ git remote add origin https://gitlab.xinhua.dev/foo/my-project.git
 $ git push --set-upstream origin --all
+$ git push --tags
 ```
+
+[^1]: 点击此处[下载该文件](https://gitlab.xinhua.dev/xhd/guides/snippets/1/raw)
+[^2]: 如果你的本地环境是 Windows，请使用 Powershell 执行。

@@ -9,6 +9,8 @@ categories: faq
 index: 1
 ---
 
+<!-- 请同步修改 firststep/2019-06-26-creating-account.md 中的数据 -->
+
 下表所示为技术局各部门的部门管理员及备份：
 
 | 部门 | 管理员 | 备份 |

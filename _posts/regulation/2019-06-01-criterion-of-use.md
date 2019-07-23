@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  新华开发平台使用规范（草案）
+title:  技术局代码管理平台使用规范（草案）
 date:   2019-06-01 07:50:00
 author: 
   - 马艳彬 <mayanbin@xinhua.org>

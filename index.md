@@ -7,8 +7,8 @@ title: {{ site.name }}
   <h1 class="project-name">{{ site.title }}</h1>
   <h2 class="project-description">{{ site.description }}</h2>
   <a href="{{ site.baseurl }}/firststep/" class="btn">如何开通平台帐号</a>
-  <a href="{{ site.baseurl }}/tutorial/getting-started.html" class="btn">第一次上手</a>
-  <a href="{{ site.baseurl }}/download/" class="btn">软件下载</a>
+  <a href="{{ site.baseurl }}/tutorial/getting-started.html" class="btn">第一次上手使用</a>
+  <a href="{{ site.baseurl }}/download/" class="btn">常用软件下载</a>
 </section>
 
 <section class="section-container">
@@ -20,16 +20,13 @@ title: {{ site.name }}
         <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><span class="required">必读</span></li>
       {% endfor %}
     </ul>
-    <!--
     <h1>规范文档</h1>
     <ul class="posts">
       {% assign regulations = site.categories.regulation | sort: "index" %}
       {% for post in regulations %}
         <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
       {% endfor %}
-      <li><a href="{{ site.baseurl }}/download/registration-form.xlsx" download="新华开发平台注册登记表.xlsx">新华开发平台注册登记表</a></li>
     </ul>
-    -->
     <h1>手册指南</h1>
     <ul class="posts">
       {% assign handbooks = site.categories.handbook | sort: "index" %}

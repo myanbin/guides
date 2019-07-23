@@ -340,7 +340,6 @@ a:hover {
   border-bottom: 2px solid #eff0f1;
   color: #000;
   padding-bottom: 0.2rem;
-  margin-bottom: 2rem;
 }
 .main-content h2:hover::before,
 .main-content h3:hover::before,
@@ -355,6 +354,31 @@ a:hover {
 .main-content p {
   margin-bottom: 1em;
 }
+ 
+.main-content a {
+  text-decoration: none;
+  border-bottom: none;
+  color: #3f51b5;
+  position: relative;
+}
+
+.main-content a::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #3d54ea;
+  transform-origin: center;
+  transform: translate(-50%, 0) scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.main-content a:hover::before {
+  transform: translate(-50%, 0) scaleX(1);
+}
+
 .main-content code {
   padding: 0.125rem 0.375rem 0.1875rem 0.375rem;
   font: 1rem "Source Code Pro", Consolas, "Liberation Mono", Menlo, Courier, monospace;
@@ -474,7 +498,18 @@ a:hover {
 }
 .main-content .meta {
   font-size: 0.9rem;
-  font-style: italic;
+  margin-bottom: 2rem;
+}
+.main-content .footnotes::before {
+  content: "";
+  display: block;
+  margin: 1.5rem 0;
+  border: 0;
+  border-top: 1px solid;
+  width: 20%;
+}
+.main-content .footnotes p {
+  margin-bottom: 0.5rem;
 }
 
 .site-header {
