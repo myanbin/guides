@@ -13,9 +13,9 @@ index: 0
 本平台帐号的开通采用申请审核制。如果你想拥有一个平台账号，请联系 [你所在部门的部门管理员](#administrator) 并按要求填写个人基本信息。
 
 
-## 附录：新华开发平台注册登记表
+## 附录：技术局代码管理平台注册登记表
 
-点此下载 <a href="./registration-form.xlsx" download="新华开发平台注册登记表.xlsx">新华开发平台注册登记表</a>。
+点此下载 <a href="./registration-form.xlsx" download="技术局代码管理平台注册登记表.xlsx">技术局代码管理平台注册登记表</a>。
 
 
 ## 附录：我所在部门的部门管理员是谁 {#administrator}

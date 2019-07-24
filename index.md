@@ -22,10 +22,9 @@ title: {{ site.name }}
     </ul>
     <h1>规范文档</h1>
     <ul class="posts">
-      {% assign regulations = site.categories.regulation | sort: "index" %}
-      {% for post in regulations %}
-        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
+      <li><a href="{{ site.baseurl }}/regulation/management-regulations.html">技术局代码管理平台管理细则（草案）</a></li>
+      <li><a href="{{ site.baseurl }}/firststep/registration-form.xlsx" download="技术局代码管理平台注册登记表.xlsx">附件：技术局代码管理平台注册登记表</a></li>
+      <li><a href="{{ site.baseurl }}/regulation/criterion-of-use.html">技术局代码管理平台使用规范（草案）</a></li>
     </ul>
     <h1>手册指南</h1>
     <ul class="posts">
