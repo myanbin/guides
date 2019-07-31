@@ -23,7 +23,7 @@ title: {{ site.name }}
     <h1>规范文档</h1>
     <ul class="posts">
       <li><a href="{{ site.baseurl }}/regulation/management-regulations.html">技术局代码管理平台管理细则（草案）</a></li>
-      <li><a href="{{ site.baseurl }}/firststep/registration-form.xlsx" download="技术局代码管理平台注册登记表.xlsx">附件：技术局代码管理平台注册登记表</a></li>
+      <li><a href="{{ site.baseurl }}/uploads/documents/registration-form-v4.xlsx" download="技术局代码管理平台注册登记表-v4.xlsx">附件：技术局代码管理平台注册登记表</a></li>
       <li><a href="{{ site.baseurl }}/regulation/criterion-of-use.html">技术局代码管理平台使用规范（草案）</a></li>
     </ul>
     <h1>手册指南</h1>
