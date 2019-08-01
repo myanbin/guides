@@ -533,12 +533,18 @@ a:hover {
   color: #ccc;
 }
 
+.site-footer {
+  display: flex;
+}
+
 .site-footer-owner {
   display: block;
+  flex: 1;
 }
 
 .site-footer-credits {
   color: #819198;
+  font-size: 0.8rem;
 }
 
 .main {

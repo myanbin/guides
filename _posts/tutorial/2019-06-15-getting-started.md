@@ -16,7 +16,9 @@ index: 0
 
 ## 确认及完善个人信息
 
-登录平台后，你需要访问 [我的帐号](//xinhua.dev/account/profile) 页来确认个人信息是否正确。你也可以继续完善个人信息，比如上传一张独一无二的头像或编辑一段自我介绍。
+登录平台后，请访问 [我的帐号](https://xinhua.dev/account/profile) 来确认姓名、拼音、电子邮箱和手机号码等个人信息是否正确。如果有误，请联系相关的部门管理员进行修改。
+
+你也可以继续完善个人信息，比如上传一张独一无二的头像或编辑一段自我介绍。
 
 ## 首次使用 GitLab 前的配置
 
@@ -33,9 +35,9 @@ $ git config --global user.email wangxiaohu@xinhua.org
 
 ### 设置 GitLab 操作密码
 
-如果你想进行推送、拉取等 GitLab 操作，那么还需要在 [此页面](//gitlab.xinhua.dev/profile/password/edit) 中设置 GitLab 的操作密码。
+如果你想进行推送、拉取等 GitLab 操作，那么还需要在 [此页面](https://gitlab.xinhua.dev/profile/password/edit) 中设置 GitLab 的操作密码。
 
 
 ## 阅读使用规范
 
-为了规范平台使用，提高开发效率，保证开发质量，请在使用平台提供的功能前阅读 [技术局代码管理平台使用规范（草案）](criterion-of-use.html)。
+为了规范平台使用，提高开发效率，保证开发质量，请在使用平台提供的功能前阅读 [技术局代码管理平台使用规范（草案）]({{ site.baseurl }}/regulation/criterion-of-use.html)。
