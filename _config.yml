@@ -1,6 +1,6 @@
 # Setup
 title:        帮助中心
-description:  教程、规范、手册与常见问题汇总
+description:  这里有关于新华开发平台的相关教程、规范、手册及常见问题
 baseurl:      ""
 locale:       "zh-CN"
 timezone:     Asia/Shanghai

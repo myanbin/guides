@@ -1,10 +1,10 @@
 ---
 layout: default
-title: {{ site.name }}
+title: 首页
 ---
 
 <section class="hero-content">
-  <h1 class="project-name">{{ site.title }}</h1>
+  <h1 class="project-name">需要帮助？</h1>
   <h2 class="project-description">{{ site.description }}</h2>
   <a href="{{ site.baseurl }}/firststep/" class="btn">如何开通平台帐号</a>
   <a href="{{ site.baseurl }}/tutorial/getting-started.html" class="btn">第一次上手使用</a>

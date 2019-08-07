@@ -37,7 +37,6 @@ $ git config --global user.email wangxiaohu@xinhua.org
 
 如果你想进行推送、拉取等 GitLab 操作，那么还需要在 [此页面](https://gitlab.xinhua.dev/profile/password/edit) 中设置 GitLab 的操作密码。
 
-
 ## 阅读使用规范
 
 为了规范平台使用，提高开发效率，保证开发质量，请在使用平台提供的功能前阅读 [技术局代码管理平台使用规范（草案）]({{ site.baseurl }}/regulation/criterion-of-use.html)。
