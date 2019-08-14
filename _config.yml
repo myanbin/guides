@@ -1,6 +1,6 @@
 # Setup
 title:        帮助中心
-description:  这里有关于新华开发平台的相关教程、规范、手册及常见问题
+description:  这里有新华开发平台的相关教程、规范、手册及 FAQ
 baseurl:      ""
 locale:       "zh-CN"
 timezone:     Asia/Shanghai
@@ -8,7 +8,7 @@ timezone:     Asia/Shanghai
 #Others
 markdown:     kramdown
 
-permalink:    /:categories/:title.html
+permalink:    /article/:title.html
 
 compress_html:
   clippings:      all
