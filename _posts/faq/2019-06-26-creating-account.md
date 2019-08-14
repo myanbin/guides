@@ -2,11 +2,11 @@
 layout: post
 title:  如何开通一个平台帐号
 date:   2019-07-10 10:50:00
-permalink: /firststep/
+permalink: /creating-account/
 author: 
   - 马艳彬 <mayanbin@xinhua.org>
-  - 李骞 <liqian6@xinhua.org>
-categories: firststep
+  - 李骞 <liqian6@xinhua.org>\
+categories: faq
 index: 0
 ---
 

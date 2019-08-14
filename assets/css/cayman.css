@@ -139,7 +139,7 @@ body {
 }
 
 a {
-  color: #2196f3;
+  color: #006fc7;
   text-decoration: none;
 }
 
@@ -351,10 +351,7 @@ a {
 .main-content p {
   margin-bottom: 1em;
 }
- 
-.main-content a {
-  color: #2196f3;
-}
+
 .main-content a:hover {
   border-bottom: 1px solid;
 }
