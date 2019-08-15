@@ -12,7 +12,9 @@ index: 0
 
 ## 修改平台密码
 
-初次登录后，请尽快修改初始的平台密码，以确保帐号密码安全。如果你忘记了平台密码，也可以通过注册时提供的邮箱找回。
+初次登录后，请尽快修改初始的平台密码，以确保帐号密码安全。修改密码时应该保证新密码至少为 10 位，且必须包括数字、大写字母和小写字母。
+
+如果你忘记了平台密码，也可以通过注册时提供的邮箱找回。
 
 ## 确认及完善个人信息
 
@@ -35,7 +37,7 @@ $ git config --global user.email wangxiaohu@xinhua.org
 
 ### 设置 GitLab 操作密码
 
-如果你想进行推送、拉取等 GitLab 操作，那么还需要在 [此页面](https://gitlab.xinhua.dev/profile/password/edit) 中设置 GitLab 的操作密码。
+如果你想进行推送、拉取等 GitLab 操作，那么还需要在 [此页面](https://gitlab.xinhua.dev/profile/password/edit) 中设置 GitLab 的操作密码。密码至少为 10 位，且必须包括数字、大写字母和小写字母。
 
 ## 阅读使用规范
 

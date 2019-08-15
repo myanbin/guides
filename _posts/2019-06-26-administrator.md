@@ -1,19 +1,17 @@
 ---
 layout: post
-title:  如何开通一个平台帐号
-date:   2019-07-10 10:50:00
-permalink: /creating-account/
+title:  我所在部门的部门管理员是谁
+date:   2019-06-01 07:50:00
 author: 
   - 马艳彬 <mayanbin@xinhua.org>
-  - 李骞 <liqian6@xinhua.org>\
+  - 李骞 <liqian6@xinhua.org>
 categories: faq
-index: 0
+index: 1
 ---
 
-本平台帐号的开通采用申请审核制。如果你想拥有一个平台账号，请联系 [你所在部门的部门管理员](#administrator) 并按要求填写个人基本信息。
+<!-- 请同步修改 ./2019-06-26-creating-account.md 中的数据 -->
 
-
-## 附录：我所在部门的部门管理员是谁 {#administrator}
+下表所示为技术局各部门的部门管理员及备份：
 
 | 部门 | 管理员 | 备份 |
 | :---: | :---: | :---: |

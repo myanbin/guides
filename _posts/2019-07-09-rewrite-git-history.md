@@ -42,9 +42,11 @@ $ git shortlog --email --numbered --summary --all
 在项目根目录下创建 `authors.txt` 来映射新旧作者的基本信息：等号左侧为原有提交的电子邮箱，右侧为在平台上登记的姓名及电子邮箱。下面是一个实际样例：
 
 ```
-myanbin@gmail = 马艳彬 <mayanbin@xinhua.org>
-hexenq@gmail  = 李骞 <liqian6@xinhua.org>
+myanbin@gmail.com = 马艳彬 <mayanbin@xinhua.org>
+hexenq@gmail.com  = 李骞 <liqian6@xinhua.org>
 ```
+
+如果历史提交中的部分人员未在平台上登记，可以使用幽灵用户 `Ghost <ghost@xinhua.dev>` 代替。
 
 ## 生成脚本并执行重写操作
 
@@ -54,7 +56,7 @@ hexenq@gmail  = 李骞 <liqian6@xinhua.org>
 $ python ./gencmd.py
 ```
 
-复制上述命令的输出结果，并在终端[^2]中执行。
+上述脚本会生成一段以 `git filter-branch` 开头的命令，请审查该命令并在终端[^2]中手动执行。
 
 ## 验证是否成功
 
@@ -73,5 +75,5 @@ $ git push --set-upstream origin --all
 $ git push --tags
 ```
 
-[^1]: 点击此处[下载该文件](https://gitlab.xinhua.dev/xhd/guides/snippets/1/raw)
-[^2]: 如果你的本地环境是 Windows，请使用 Powershell 执行。
+[^1]: 点击此处[下载该文件](https://gitlab.xinhua.dev/xinhua/guides/snippets/1/raw)
+[^2]: 如果你的本地环境是 Windows 操作系统，建议使用 Powershell 执行。
