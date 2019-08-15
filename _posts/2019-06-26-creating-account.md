@@ -2,16 +2,14 @@
 layout: post
 title:  如何开通一个平台帐号
 date:   2019-07-10 10:50:00
-permalink: /creating-account/
+permalink: /firststep/
 author: 
   - 马艳彬 <mayanbin@xinhua.org>
   - 李骞 <liqian6@xinhua.org>\
-categories: faq
 index: 0
 ---
 
 本平台帐号的开通采用申请审核制。如果你想在开发平台上创建一个帐号，请联系 [你所在部门的部门管理员](#administrator) 并按要求填写个人基本信息。
-
 
 ## 附录：我所在部门的部门管理员是谁 {#administrator}
 
