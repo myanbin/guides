@@ -35,6 +35,8 @@ $ git config --global user.name 王小虎
 $ git config --global user.email wangxiaohu@xinhua.org
 ```
 
+> 如果此处的姓名和电子邮箱配置错误，你将无法向 GitLab 服务端推送代码。
+
 ### 设置 GitLab 操作密码
 
 如果你想进行推送、拉取等 GitLab 操作，那么还需要在 [此页面](https://gitlab.xinhua.dev/profile/password/edit) 中设置 GitLab 的操作密码。密码至少为 10 位，且必须包括数字、大写字母和小写字母。

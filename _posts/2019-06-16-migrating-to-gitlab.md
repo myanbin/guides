@@ -16,7 +16,7 @@ index: 100
 
 * 安装有 Git 的本地开发环境
 * 提前在 GitLab 上创建一个空的项目仓库
-* 如果你的 Git 存在历史提交，请参照这里 [重写 Git 历史]({{ site.baseurl }}/faq/rewrite-git-history.html)
+* 如果你的 Git 存在历史提交，请参照这里 [重写 Git 历史]({{ site.baseurl }}/article/rewrite-git-history.html)
 
 ## 从其他 Git 仓库进行迁移
 

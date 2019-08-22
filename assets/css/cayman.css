@@ -427,9 +427,9 @@ a {
 .main-content blockquote {
   padding: 1rem;
   margin: 0;
-  color: #819198;
-  background-color: #fffae9;
-  border: 2px solid #ffeeb6;
+  color: #000;
+  background-color: #fdd835;
+  border: 2px solid #f5d02c;
 }
 .main-content blockquote > :first-child {
   margin-top: 0;
