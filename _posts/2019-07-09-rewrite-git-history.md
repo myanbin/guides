@@ -23,7 +23,12 @@ index: 101
 
 ## 保持本地仓库为最新最全
 
-保证本地仓库中的分支和标签与远端保持一致，并且为最新版本。
+保证本地仓库中的所有分支和标签与远端保持一致，并且为最新版本。
+
+```sh
+$ git branch -r | grep -v '\->' | while read remote; do git branch --track "${remote#origin/}" "$remote"; done
+$ git pull --all
+```
 
 然后，删除远端配置：
 
@@ -46,17 +51,17 @@ myanbin@gmail.com = 马艳彬 <mayanbin@xinhua.org>
 hexenq@gmail.com  = 李骞 <liqian6@xinhua.org>
 ```
 
-如果历史提交中的部分人员未在平台上登记，可以使用幽灵用户 `Ghost <ghost@xinhua.dev>` 代替。
+如果历史提交中的部分人员未在平台上登记，可以使用幽灵用户 `Ghost <ghost@xinhua.dev>` 代替[^1] 。
 
 ## 生成脚本并执行重写操作
 
-将 `gencmd.py`[^1] 复制到项目根目录下，并在终端中执行命令：
+下载 `gencmd.py` 脚本（[点此下载](https://gitlab.xinhua.dev/xinhua/guides/snippets/1/raw)）到项目根目录下，并在终端中执行命令：
 
 ```sh
 $ python ./gencmd.py
 ```
 
-上述脚本会生成一段以 `git filter-branch` 开头的命令，请审查该命令并在终端[^2]中手动执行。
+上述脚本会生成一段以 `git filter-branch` 开头的命令，请审查该命令并在终端中手动执行。
 
 ## 验证是否成功
 
@@ -75,5 +80,8 @@ $ git push --set-upstream origin --all
 $ git push --tags
 ```
 
-[^1]: 点击此处[下载该文件](https://gitlab.xinhua.dev/xinhua/guides/snippets/1/raw)
-[^2]: 如果你的本地环境是 Windows 操作系统，建议使用 Powershell 执行。
+## 最后的清理
+
+删除刚才使用过的 `authors.txt` 和 `gencmd.py` 文件。
+
+[^1]: 如果想保留原始的历史提交者姓名，也可以使用 `Ghost.王小虎 <ghost@xinhua.dev>` 代替。
