@@ -8,7 +8,7 @@ title: 首页
   <h2 class="project-description">{{ site.description }}</h2>
   <a href="{{ site.baseurl }}/firststep/" class="btn">如何开通平台帐号</a>
   <a href="{{ site.baseurl }}/article/getting-started.html" class="btn">第一次上手使用</a>
-  <a href="{{ site.baseurl }}/download/" class="btn">常用软件下载</a>
+  <a href="{{ site.baseurl }}/article/download.html" class="btn">常用软件下载</a>
 </section>
 
 <section class="section-container">
