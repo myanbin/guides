@@ -84,4 +84,4 @@ $ git push --tags
 
 删除刚才使用过的 `authors.txt` 和 `gencmd.py` 文件。
 
-[^1]: 如果想保留原始的历史提交者姓名，也可以使用 `Ghost.王小虎 <ghost@xinhua.dev>` 代替。
+[^1]: 如果想保留原始的历史提交者姓名，也可以使用 `Ghost (王小虎) <ghost@xinhua.dev>` 代替。

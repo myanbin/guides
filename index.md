@@ -33,7 +33,7 @@ title: 首页
         <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
       {% endfor %}
     </ul>
-    <h1>FAQ</h1>
+    <h1>常见问题 FAQ</h1>
     <ul class="posts">
       {% assign faqs = site.categories.faq | sort: "index" %}
       {% for post in faqs %}
