@@ -18,16 +18,16 @@ index: 101
 
 为了顺利进行重写，你需要确认是否已经完成下列内容：
 
-* 安装有 Git 和 Python 3 的本地开发环境
-* 提前将待重写的代码仓库克隆到本地
+* 安装有 Git 和 Python 3 的类 Linux 本地开发环境
 
 ## 保持本地仓库为最新最全
 
-保证本地仓库中的所有分支和标签与远端保持一致，并且为最新版本。
+将待重写的代码仓库克隆到本地，并保证本地仓库中的所有分支和标签与远端保持一致，并且为最新版本。
 
 ```sh
+$ git clone https://path.to/foo/my-project.git
+$ cd my-project
 $ git branch -r | grep -v '\->' | while read remote; do git branch --track "${remote#origin/}" "$remote"; done
-$ git pull --all
 ```
 
 然后，删除远端配置：
@@ -51,7 +51,13 @@ myanbin@gmail.com = 马艳彬 <mayanbin@xinhua.org>
 hexenq@gmail.com  = 李骞 <liqian6@xinhua.org>
 ```
 
-如果历史提交中的部分人员未在平台上登记，可以使用幽灵用户 `Ghost <ghost@xinhua.dev>` 代替[^1] 。
+你可以通过下面的命令快速生成该文件，并手动替换其中的 `登记姓名 <登记邮箱>`：
+
+```sh
+$ git shortlog --email --summary --all | sed 's/^.*<\(.*\)>.*$/\1\t=\t登记姓名 <登记邮箱>/' | sort | uniq > ./authors.txt
+```
+
+如果历史提交中的部分人员未在平台上登记，可以使用幽灵用户 `Ghost <ghost@xinhua.dev>` 代替。
 
 ## 生成脚本并执行重写操作
 
@@ -61,7 +67,7 @@ hexenq@gmail.com  = 李骞 <liqian6@xinhua.org>
 $ python ./gencmd.py
 ```
 
-上述脚本会生成一段以 `git filter-branch` 开头的命令，请审查该命令并在终端中手动执行。
+上述脚本会生成一段以 `git filter-branch` 开头的命令，请审查该命令并在终端中手动执行。根据仓库大小，该命令可能需要几分钟时间。
 
 ## 验证是否成功
 
@@ -84,4 +90,6 @@ $ git push --tags
 
 删除刚才使用过的 `authors.txt` 和 `gencmd.py` 文件。
 
+<!--
 [^1]: 如果想保留原始的历史提交者姓名，也可以使用 `Ghost (王小虎) <ghost@xinhua.dev>` 代替。
+-->
