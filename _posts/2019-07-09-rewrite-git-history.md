@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  如何重写 Git 历史
-date:   2019-07-22 10:50:00
+date:   2019-09-04 10:50:00
 author:
   - 马艳彬 <mayanbin@xinhua.org>
 categories: faq
@@ -61,9 +61,10 @@ $ git shortlog --email --summary --all | sed 's/^.*<\(.*\)>.*$/\1\t=\t登记姓�
 
 ## 生成脚本并执行重写操作
 
-下载 `gencmd.py` 脚本（[点此下载](https://gitlab.xinhua.dev/xinhua/guides/snippets/1/raw)）到项目根目录下，并在终端中执行命令：
+下载 `gencmd.py` 脚本到项目根目录下，并在终端中执行命令：
 
 ```sh
+$ wget https://help.xinhua.dev/uploads/documents/gencmd.py
 $ python ./gencmd.py
 ```
 
