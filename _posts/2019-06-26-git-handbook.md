@@ -35,6 +35,17 @@ $ yum install git
 $ apt-get install git
 ```
 
+通过源代码安装（[点击下载源代码包]({{ site.baseurl }}/uploads/softwares/git-2.24.1.tar.gz)）：
+
+```sh
+$ tar -zxf git-2.24.1.tar.gz
+$ cd git-2.24.1
+$ make configure
+$ ./configure --prefix=/usr
+$ make all doc info
+$ sudo make install install-doc install-html install-info
+```
+
 ### macOS
 
 macOS 上可以通过其包管理器 homebrew 进行安装。首先使用下面命令来安装 homebrew 工具：

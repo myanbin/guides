@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  如何给项目成员设置 GitLab 权限
-date:   2019-08-27 10:50:00
+date:   2019-09-05 10:50:00
 author: 
   - 马艳彬 <mayanbin@xinhua.org>
 categories: faq

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  推送代码时提示 Unauthorized name or email 错误怎么办
-date:   2019-07-22 10:50:00
+date:   2019-08-22 10:50:00
 author:
   - 马艳彬 <mayanbin@xinhua.org>
 categories: faq
