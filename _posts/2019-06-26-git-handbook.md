@@ -17,7 +17,7 @@ Git 提供了所有平台的二进制安装包，你可以按照下面的说明�
 
 使用下面提供的安装包进行安装
 
-[32位版]({{ site.baseurl }}/uploads/softwares/Git-2.22.0-32-bit.exe) &middot; [64位版]({{ site.baseurl }}/uploads/softwares/Git-2.22.0-64-bit.exe)
+[32位版]({{ site.baseurl }}/download/Git-2.22.0-32-bit.exe) &middot; [64位版]({{ site.baseurl }}/download/Git-2.22.0-64-bit.exe)
 
 ### Linux
 
@@ -35,7 +35,7 @@ $ yum install git
 $ apt-get install git
 ```
 
-通过源代码安装（[点击下载源代码包]({{ site.baseurl }}/uploads/softwares/git-2.24.1.tar.gz)）：
+通过源代码安装（[点击下载源代码包]({{ site.baseurl }}/download/git-2.24.1.tar.gz)）：
 
 ```sh
 $ tar -zxf git-2.24.1.tar.gz
@@ -94,7 +94,7 @@ $ git clone git@gitlab.xinhua.dev:/path/to/repository
 
 最后是 HEAD，指向你最近一次提交后的结果。
 
-![工作流]({{ site.baseurl }}/uploads/images/git-trees.png)
+![工作流]({{ site.baseurl }}/images/git-trees.png)
 
 ## 添加与提交
 
@@ -145,7 +145,7 @@ $ git push
 
 Git 鼓励频繁地使用分支来进行开发。在你创建或克隆仓库的时候，git 会创建一个名字叫 `master` 的默认分支。在其他分支上进行开发，完成后再将它们通过 Merge Request 合并到主分支上。
 
-![分支]({{ site.baseurl }}/uploads/images/git-branches.png)
+![分支]({{ site.baseurl }}/images/git-branches.png)
 
 例如，创建一个叫做 `dev` 的分支，并切换过去：
 

@@ -64,7 +64,7 @@ $ git shortlog --email --summary --all | sed 's/^.*<\(.*\)>.*$/\1\t=\t登记姓�
 下载 `gencmd.py` 脚本到项目根目录下，并在终端中执行命令：
 
 ```sh
-$ wget https://help.xinhua.dev/uploads/documents/gencmd.py
+$ wget https://help.xinhua.dev/public/gencmd.py
 $ python ./gencmd.py
 ```
 
