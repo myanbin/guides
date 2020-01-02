@@ -17,7 +17,7 @@ Git 提供了所有平台的二进制安装包，你可以按照下面的说明�
 
 使用下面提供的安装包进行安装
 
-[32位版]({{ site.baseurl }}/download/Git-2.22.0-32-bit.exe) &middot; [64位版]({{ site.baseurl }}/download/Git-2.22.0-64-bit.exe)
+[32 位版]({{ site.baseurl }}/download/Git-2.22.0-32-bit.exe) &middot; [64 位版]({{ site.baseurl }}/download/Git-2.22.0-64-bit.exe)
 
 ### Linux
 
@@ -35,9 +35,10 @@ $ yum install git
 $ apt-get install git
 ```
 
-通过源代码安装（[点击下载源代码包]({{ site.baseurl }}/download/git-2.24.1.tar.gz)）：
+通过源代码安装：
 
 ```sh
+$ wget https://help.xinhua.dev/download/git-2.24.1.tar.gz
 $ tar -zxf git-2.24.1.tar.gz
 $ cd git-2.24.1
 $ make configure

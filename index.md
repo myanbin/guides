@@ -17,7 +17,7 @@ title: 首页
     <ul class="posts">
       {% assign tutorials = site.categories.tutorial | sort: "index" %}
       {% for post in tutorials %}
-        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><span class="required">必读</span></li>
+        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> <span class="my-label">必读</span></li>
       {% endfor %}
     </ul>
     <h1>规范文档</h1>
