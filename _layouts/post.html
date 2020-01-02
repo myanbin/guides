@@ -7,7 +7,7 @@ layout: default
     <h1>{{ page.title }}</h1>
     <p class="meta">
       <span>本文更新于 {{ page.date | date: "%Y-%m-%d" }}</span>
-      <!-- <span> &middot; {% for author in page.author %}{{ author | split: " " | first }} {% endfor %}</span> -->
+      <span> &middot; {% for author in page.author %}{{ author | split: " " | first }}{% if forloop.last == false %}、{% endif %}{% endfor %}</span>
     </p>
 
     {{ content }}
