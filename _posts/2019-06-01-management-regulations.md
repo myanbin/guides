@@ -2,6 +2,7 @@
 layout: page
 title:  技术局代码管理平台管理细则（草案）
 date:   2019-06-01 07:50:00
+description: 该细则目前为草案阶段
 author: 
   - 马艳彬 <mayanbin@xinhua.org>
   - 李骞 <liqian6@xinhua.org>
